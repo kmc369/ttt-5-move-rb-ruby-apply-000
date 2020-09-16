@@ -10,7 +10,8 @@ def display_board(board)
 end
 
 def input_to_index(interger)
-   index= interger.to_i - 1
+   placeholder= interger.to_i 
+   index = placeholder.input_to_index
    return index
 end
 
