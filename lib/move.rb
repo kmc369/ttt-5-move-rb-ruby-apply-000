@@ -9,7 +9,7 @@ end
 def input_to_index(interger)
    interger= string.to_i
    index = stringTOInterger.input_to_index
-   return stringToIndex
+   return index
 end
 
 def move(board,index,character="X")
