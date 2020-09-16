@@ -8,7 +8,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(interger)
+def input_to_index(interger>=0)
    index= interger.to_i - 1
    return index
 end
