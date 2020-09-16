@@ -1,6 +1,5 @@
 
-def display_board(board)
-  puts board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
 
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -19,3 +18,5 @@ def move(board,index,character="X")
   return board[index] = character
 
 end
+
+display_board(move)
