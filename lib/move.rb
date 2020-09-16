@@ -7,8 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(interger)
-   interger= string.to_i
-   index = stringTOInterger.input_to_index
+   index= interger.to_i -1
    return index
 end
 
