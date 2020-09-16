@@ -19,4 +19,4 @@ def move(board,index,character="X")
 
 end
 
-display_board(move)
+
