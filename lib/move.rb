@@ -18,5 +18,5 @@ def move(board,index,character="X")
   return board[index] = character
 
 end
-
+ move(board,2, "X")
 display_board()
