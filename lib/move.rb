@@ -10,7 +10,7 @@ board = [" "," "," "," "," "," "," "," "," "]
 end
 
 def input_to_index(interger)
-   index = interger.to_i - 1
+   index = ((interger.to_i) - 1)
 return index
 end
 
